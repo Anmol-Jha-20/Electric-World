@@ -7,22 +7,22 @@ const FAQSection = () => {
     {
       question: "Why to choose us?",
       answer:
-        "Vitae cras diam egestas sed sit. Nisi in lectus nam nec genean. Consequat fermentum hendrerit eget blandit tristique amet varius. Duis mauris elit elit tincidunt ipsum vel magna vel varius. Tristique eu integer diam nunc. Mauris ut sit ut neque nulla.",
+        "With over two decades of experience, we operate as both Electric Work and Jyoti Enterprises, offering end-to-end electrical solutions and reliable LED lighting products. From customized electrical designs to supplying trusted brands like Apra and Surya, we are committed to quality, efficiency, and customer satisfaction.",
     },
     {
-      question: "How quickly can you get help?",
+      question: "What types of products do you deal in?",
       answer:
-        "Vitae cras diam egestas sed sit. Nisi in lectus nam nec genean. Consequat fermentum hendrerit eget blandit tristique amet varius. Duis mauris elit elit tincidunt ipsum vel magna vel varius. Tristique eu integer diam nunc. Mauris ut sit ut neque nulla.",
+        "Through Jyoti Enterprises, we supply a wide range of LED lighting products including 50W Apra LED Flood Lights, 72W and 45W Surya LED Street Lights, and other energy-efficient lighting solutions.",
     },
     {
-      question: "How to pay for services?",
+      question: "Are you a contractor or supplier?",
       answer:
-        "Vitae cras diam egestas sed sit. Nisi in lectus nam nec genean. Consequat fermentum hendrerit eget blandit tristique amet varius. Duis mauris elit elit tincidunt ipsum vel magna vel varius. Tristique eu integer diam nunc. Mauris ut sit ut neque nulla.",
+        "Both. Electric Work handles electrical design and contracting services, while Jyoti Enterprises focuses on wholesale trading of electrical and lighting products. Together, we offer end-to-end solutions.",
     },
     {
-      question: "What to call an electrician?",
+      question: "How long have you been in business?",
       answer:
-        "Vitae cras diam egestas sed sit. Nisi in lectus nam nec genean. Consequat fermentum hendrerit eget blandit tristique amet varius. Duis mauris elit elit tincidunt ipsum vel magna vel varius. Tristique eu integer diam nunc. Mauris ut sit ut neque nulla.",
+        "We’ve been serving the industry since 2003, earning trust through reliable service, quality products, and customer satisfaction.",
     },
   ];
 

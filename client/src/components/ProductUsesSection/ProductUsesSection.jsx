@@ -47,8 +47,8 @@ const ProductUsesSection = () => {
           Applications
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Discover how our solar-powered lighting solutions transform different
-          spaces
+          Discover how our energy-efficient LED lighting solutions enhance and
+          illuminate a wide range of spaces.
         </p>
       </div>
 

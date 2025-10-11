@@ -70,10 +70,11 @@ const Footer = () => {
 
             {/* Description */}
             <p className="text-gray-400 leading-relaxed max-w-md">
-              Our team can assist with the installation and integration of home
-              automation systems, allowing you to control your lighting and
-              other electronic devices with ease, can provide backup generator
-              installation and maintenance services.
+              We, under our brands “Electric Work” and “Jyoti Enterprises”,
+              provide comprehensive electrical solutions – from system design
+              for new constructions, renovations, and upgrades to the wholesale
+              supply of quality lighting products such as 50W Apra LED Flood
+              Lights, 72W and 45W Surya LED Street Lights.
             </p>
 
             {/* Social Media Icons */}
