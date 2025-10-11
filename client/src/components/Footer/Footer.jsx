@@ -129,7 +129,8 @@ const Footer = () => {
                 <div>
                   <h4 className="text-white font-semibold mb-1">Address</h4>
                   <p className="text-gray-400">
-                    13 Division st, New York, 16004
+                    19, Ground Floor, Raj Brij Tower Narsingh Colony, Gulabpura
+                    Road Bijainagar, Dist. Ajmer (Raj.) – 305624
                   </p>
                 </div>
               </div>
@@ -147,7 +148,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold mb-1">Phone:</h4>
-                  <p className="text-gray-400">+1 800 777 000</p>
+                  <p className="text-gray-400">+91 7427 051 223</p>
                 </div>
               </div>
 
@@ -164,7 +165,9 @@ const Footer = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold mb-1">Email:</h4>
-                  <p className="text-gray-400">support@wolt.com</p>
+                  <p className="text-gray-400">
+                    electricworldbijainagar@gmail.com
+                  </p>
                 </div>
               </div>
             </div>
@@ -174,7 +177,7 @@ const Footer = () => {
         {/* Bottom Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-700">
           <p className="text-gray-500 text-sm text-center md:text-left">
-            Electric World © All Rights Reserved - 2025 -{" "}
+            Electric World © All Rights Reserved - 2025 - Designed by&nbsp;
             <a
               href="https://webvortexsolutions.com/"
               target="_blank"

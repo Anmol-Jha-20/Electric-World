@@ -68,7 +68,7 @@ const AboutUs = () => {
                 </div>
 
                 <h3 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-2">
-                  30
+                  20
                 </h3>
                 <p className="text-lg sm:text-xl font-semibold text-black leading-tight">
                   Years of
@@ -109,9 +109,10 @@ const AboutUs = () => {
 
             {/* Description */}
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              We offer electrical design services for new construction projects,
-              renovations, and upgrades to ensure that your electrical systems
-              meet your specific needs and requirements.
+              Operating as “Electric Work” and “Jyoti Enterprises”, we offer
+              complete electrical solutions—from design for new projects and
+              renovations to the wholesale supply of quality LED lighting like
+              Apra and Surya street lights.
             </p>
 
             {/* Progress Bars */}

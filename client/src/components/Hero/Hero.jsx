@@ -346,10 +346,10 @@ const HeroSlider = () => {
       id: 1,
       title: "Full range",
       subtitle: "of electrical",
-      subtitle2: "services",
+      subtitle2: "products",
       description:
         "We understand that electrical problems can happen at any time, so we respond quickly to your requests and are ready to come to you at a convenient time, including nights and weekends.",
-      buttonText: "Our Services",
+      buttonText: "Our Products",
       image:
         "https://wolt.like-themes.com/wp-content/uploads/2023/03/slider_01.jpg",
       bgColor: "from-gray-900 to-gray-800",

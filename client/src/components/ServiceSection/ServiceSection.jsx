@@ -5,45 +5,45 @@ const ServicesSection = () => {
   const services = [
     {
       id: "01",
-      title: "Electrical repairs",
+      title: "Flood Light",
       description:
-        "Our electronic services include installation, maintenance, and repair of all types of electrical systems for residential and commercial buildings.",
+        "Leading Wholesale Trader of 200W Surya Flood Light, 150W Surya Flood Light, 50W Apra Kaixin LED Flood Light, Havells Max Pro Flood Light, 100W Philips Flood Light and 100W Havells Jeta Sturdy Flood Light from Bhilwara.",
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301915484/HB/JV/TK/60856849/200w-surya-flood-light-500x500.jpg",
     },
     {
       id: "02",
-      title: "Safety improvement",
+      title: "Ceiling Fan",
       description:
-        "Looking for energy-efficient lighting solutions? Our experts can help you choose the right LED lighting systems that meet your needs and budget.",
+        "Prominent & Leading Wholesale Trader from Bhilwara, we offer Havells Reo Utsav Ceiling Fan, Orient Electric Gratia Ceiling Fan and BLDC Ceiling Fan.",
       image: "/placeholder-ceiling-light.jpg",
     },
     {
       id: "03",
-      title: "Lighting upgrades",
+      title: "Switch Board",
       description:
-        "From outdoor landscape lighting to indoor ambient lighting, our team of professionals can create a customized lighting plan that enhances your space.",
+        "Providing you the best range of Electrical Switch Board and Anchor Electrical Switch Board with effective & timely delivery.",
       image: "/placeholder-geometric-light.jpg",
     },
     {
       id: "04",
-      title: "Surge protection",
+      title: "LED Bulb",
       description:
-        "Our experienced technicians can perform electrical safety inspections to identify potential hazards and ensure that your electrical systems are up to code.",
+        "Wholesale Trader of a wide range of products which include Philips Stellar Bright LED Bulb.",
       image: "/placeholder-ceiling-light.jpg",
     },
     {
       id: "05",
-      title: "Panel upgrades",
+      title: "Street Light",
       description:
-        "Upgrade your electrical panel to improve energy efficiency, increase capacity, and protect your home or business from power surges and electrical fires.",
+        "Wholesale Trader of a wide range of products which include Surya SL-45W LED Street Light, Led Display Module, Surya SL-72W LED Street Light and Surya SL-20W LED Street Light.",
       image: "/placeholder-ceiling-light.jpg",
     },
     {
       id: "06",
-      title: "Cable installation",
+      title: "COB Light",
       description:
-        "Whether you need lighting repairs, electrical upgrades, or a new installation, we're here to provide quality services that meet your needs and exceed your expectations.",
+        "Our product range includes a wide range of 12W Havells LED COB Light and Led Cob Chip.",
       image: "/placeholder-ceiling-light.jpg",
     },
   ];
@@ -139,10 +139,10 @@ const ServicesSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            OUR SERVICES
+            OUR PRODUCTS
           </motion.p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900">
-            Full range of services
+            Full range of products
           </h2>
         </motion.div>
 

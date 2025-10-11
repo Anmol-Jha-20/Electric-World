@@ -242,6 +242,13 @@ const Header = () => {
               <Search className="w-5 h-5" />
             </button> */}
 
+            <button
+              onClick={() => (window.location.href = "tel:+917427051223")}
+              className="w-full hidden md:block lg:block xl:block bg-yellow-400 hover:bg-yellow-500 text-gray-900 py-3 px-5 cursor-pointer rounded-md font-medium transition-colors"
+            >
+              Get Consultation
+            </button>
+
             {/* Mobile Menu Toggle */}
             <button
               className="lg:hidden p-2 text-gray-700 hover:text-gray-900 transition-colors"
