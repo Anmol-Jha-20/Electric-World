@@ -12,7 +12,7 @@ import FAQSection from "../components/FaqSection/FaqSection.jsx";
 function HomePage() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <HeroSlider />
       <div className="overflow-x-hidden">
@@ -23,7 +23,7 @@ function HomePage() {
       <ProductUsesSection />
       <TestimonialsSection />
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

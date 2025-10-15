@@ -1,10 +1,14 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import HomePage from "./pages/HomePage.jsx";
+import Header from "./components/Header/Header.jsx";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   );
 }

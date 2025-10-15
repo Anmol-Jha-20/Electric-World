@@ -48,36 +48,42 @@ const Header = () => {
       label: "Home",
       hasDropdown: false,
       items: [],
+      link: "/",
     },
     aboutUs: {
       label: "About Us",
       hasDropdown: false,
       items: [],
+      link: "/about-us",
     },
     products: {
       label: "Products",
       hasDropdown: true,
       items: [
-        { label: "Flood Light", link: "#" },
-        { label: "Ceiling Fan", link: "#" },
-        { label: "Switch Board", link: "#" },
-        { label: "LED Bulb", link: "#" },
-        { label: "Street Light", link: "#" },
-        { label: "COB Light", link: "#" },
-        { label: "Tube Light", link: "#" },
+        { label: "Flood Light", link: "/flood-light" },
+        { label: "Ceiling Fan", link: "/ceiling-fan" },
+        { label: "Switch Board", link: "/switch-board" },
+        { label: "LED Bulb", link: "/led-bulb" },
+        { label: "Street Light", link: "/street-light" },
+        { label: "COB Light", link: "/cob-light" },
+        { label: "Tube Light", link: "tube-light" },
       ],
+      link: "/#",
     },
     gallery: {
       label: "Gallery",
       hasDropdown: false,
+      link: "/gallery",
     },
     blog: {
       label: "Blog",
       hasDropdown: false,
+      link: "/#",
     },
     contacts: {
       label: "Contacts",
       hasDropdown: false,
+      link: "/contact-us",
     },
   };
 
@@ -136,7 +142,7 @@ const Header = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <a
-                  href="#"
+                  href={item.link}
                   className={`px-4 md:px-7 xl:px-7 lg:px-7 py-2 text-sm md:text-[16px] lg:text-[16px] xl:text-[16px] font-medium rounded transition-colors duration-200 flex items-center ${
                     activeMenu === key
                       ? "text-yellow-400"

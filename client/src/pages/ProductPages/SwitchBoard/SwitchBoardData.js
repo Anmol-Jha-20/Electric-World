@@ -1,0 +1,100 @@
+// productsData.js - Centralized product data
+export const productsData = [
+  {
+    id: 1,
+    name: "Electrical Switch Board",
+    price: 350,
+    minOrder: "50 Piece",
+    model: "FLP-200",
+    category: "Switch Board",
+    rating: 4.8,
+    images: [
+      "https://5.imimg.com/data5/SELLER/Default/2023/4/301920646/NV/OM/HT/60856849/anchor-electrical-switch-board-500x500.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/4/301920848/HC/JD/OD/60856849/anchor-electrical-switch-board-500x500.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/4/301920459/RR/CZ/TS/60856849/anchor-switch-board-accessories-3--500x500.jpeg",
+    ],
+    specifications: {
+      "Usage/Application": "Switch Board",
+      "Lighting Color": "Warm White",
+      "IP Rating": "IP55",
+      "Model Name/Number": "FLP-200",
+      "Beam Angle": "120 Degree",
+      Power: "200W",
+      "Body Material": "Aluminum and Glass",
+      "Lighting Type": "LED",
+      "Input Voltage": "220V",
+      Warranty: "1 Year",
+      Frequency: "50 Hz",
+    },
+    additionalInfo: {
+      Class: "Class-1",
+      PF: ">0.95",
+      Temperature: "55DegC",
+      TC: "85DegC",
+      "Made in": "India",
+      Certification: "CE Certified",
+    },
+    features: [
+      "Energy-efficient LED technology",
+      "Weatherproof IP55 rated",
+      "Wide 120-degree beam angle",
+      "Durable aluminum and glass construction",
+      "1 year warranty coverage",
+    ],
+    seo: {
+      title: "200W Surya Flood Light - IP55 Rated LED Outdoor Lighting",
+      description:
+        "High-quality 200W LED flood light with IP55 rating, 120-degree beam angle, and aluminum construction. Perfect for outdoor illumination.",
+      keywords:
+        "LED flood light, 200W flood light, outdoor lighting, IP55 rated, Surya lighting",
+    },
+  },
+  {
+    id: 2,
+    name: "Anchor Electrical Switch Board",
+    price: 350,
+    minOrder: "100 Piece",
+    model: "FLP-100",
+    category: "Switch Board",
+    rating: 4.6,
+    images: [
+      "https://5.imimg.com/data5/SELLER/Default/2023/4/301920459/RR/CZ/TS/60856849/anchor-switch-board-accessories-3--500x500.jpeg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/4/301920848/HC/JD/OD/60856849/anchor-electrical-switch-board-500x500.jpg",
+    ],
+    specifications: {
+      "Usage/Application": "Switch Board",
+      "Lighting Color": "Cool White",
+      "IP Rating": "IP65",
+      "Model Name/Number": "FLP-100",
+      "Beam Angle": "110 Degree",
+      Power: "100W",
+      "Body Material": "Die-Cast Aluminum",
+      "Lighting Type": "LED",
+      "Input Voltage": "220V",
+      Warranty: "2 Years",
+      Frequency: "50 Hz",
+    },
+    additionalInfo: {
+      Class: "Class-1",
+      PF: ">0.90",
+      Temperature: "50DegC",
+      TC: "80DegC",
+      "Made in": "India",
+      Certification: "CE & RoHS",
+    },
+    features: [
+      "Compact and lightweight design",
+      "Superior IP65 waterproof rating",
+      "High luminous efficiency",
+      "Long lifespan up to 50,000 hours",
+      "2 years replacement warranty",
+    ],
+    seo: {
+      title: "100W LED Flood Light - IP65 Waterproof Outdoor Lighting",
+      description:
+        "Compact 100W LED flood light with IP65 waterproof rating, die-cast aluminum body, and 2-year warranty. Ideal for outdoor applications.",
+      keywords:
+        "100W LED light, outdoor flood light, IP65 waterproof, energy efficient lighting",
+    },
+  },
+];
