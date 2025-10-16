@@ -7,10 +7,10 @@ const AboutUs = () => {
   const controls = useAnimation();
 
   const services = [
-    { name: "Diagnostics", percentage: 66 },
-    { name: "Repairs", percentage: 95 },
-    { name: "Prevention", percentage: 53 },
-    { name: "Installation", percentage: 77 },
+    { name: "Product Quality Verification", percentage: 66 },
+    { name: "Order Fulfillment Efficiency", percentage: 95 },
+    { name: "Supply Chain Reliability", percentage: 53 },
+    { name: "Product Availability Rate", percentage: 77 },
   ];
 
   useEffect(() => {
@@ -68,7 +68,7 @@ const AboutUs = () => {
                 </div>
 
                 <h3 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-black mb-2">
-                  20
+                  22
                 </h3>
                 <p className="text-lg sm:text-xl font-semibold text-black leading-tight">
                   Years of
