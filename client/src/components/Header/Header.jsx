@@ -360,7 +360,7 @@ const Header = () => {
                   </>
                 ) : (
                   <a
-                    href="#"
+                    href={item.link}
                     className="block py-3 text-gray-700 hover:text-gray-900 font-medium"
                   >
                     {item.label}
