@@ -115,7 +115,10 @@ const FAQSection = () => {
 
             {/* All Questions Button */}
             <div className="mt-8">
-              <button className="inline-flex items-center px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded hover:bg-yellow-500 transition-colors duration-300">
+              <button
+                className="inline-flex items-center px-6 py-3 bg-yellow-400 cursor-pointer text-gray-900 font-semibold rounded hover:bg-yellow-500 transition-colors duration-300"
+                onClick={() => (window.location.href = "tel:+917427051223")}
+              >
                 <svg
                   className="w-5 h-5 mr-2"
                   fill="none"
@@ -129,7 +132,7 @@ const FAQSection = () => {
                     d="M12 6v6m0 0v6m0-6h6m-6 0H6"
                   />
                 </svg>
-                All questions
+                Contact Us
               </button>
             </div>
           </div>

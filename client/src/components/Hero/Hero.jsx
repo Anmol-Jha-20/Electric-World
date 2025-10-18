@@ -907,11 +907,13 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [direction, setDirection] = useState(0);
   const [showVideo, setShowVideo] = useState(true);
+  const navigate = useNavigate();
 
   const slides = [
     {
@@ -921,7 +923,7 @@ const HeroSlider = () => {
       subtitle2: "Light",
       description:
         "High-performance LED flood lights designed for industrial and commercial applications with superior brightness and energy efficiency.",
-      buttonText: "View Product",
+      buttonText: "Contact Us",
       image:
         "https://wolt.like-themes.com/wp-content/uploads/2023/03/slider_01.jpg",
     },
@@ -932,7 +934,7 @@ const HeroSlider = () => {
       subtitle2: "Light",
       description:
         "Premium quality street lighting solutions providing excellent illumination for roads and highways with long-lasting durability.",
-      buttonText: "Learn More",
+      buttonText: "Contact Us",
       image:
         "https://wolt.like-themes.com/wp-content/uploads/2023/03/slider_02.jpg",
     },
@@ -1351,7 +1353,11 @@ const HeroSlider = () => {
                       boxShadow: "0 0 30px rgba(251, 191, 36, 0.6)",
                     }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-yellow-500 text-gray-900 px-12 py-6 rounded-full text-xl font-bold hover:bg-yellow-400 transition-all duration-300 shadow-2xl"
+                    className="bg-yellow-500 text-gray-900 px-12 py-6 cursor-pointer rounded-full text-xl font-bold hover:bg-yellow-400 transition-all duration-300 shadow-2xl"
+                    onClick={() => {
+                      navigate("/gallery");
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}
                   >
                     Explore Products
                   </motion.button>
@@ -1471,8 +1477,11 @@ const HeroSlider = () => {
                           transition: { duration: 0.3 },
                         }}
                         whileTap={{ scale: 0.92 }}
-                        className="inline-flex items-center gap-3 bg-yellow-500 text-gray-900 px-10 py-5 rounded-full text-lg font-bold hover:bg-yellow-400 transition-colors duration-300 shadow-2xl"
+                        className="inline-flex items-center gap-3 bg-yellow-500 cursor-pointer text-gray-900 px-10 py-5 rounded-full text-lg font-bold hover:bg-yellow-400 transition-colors duration-300 shadow-2xl"
                         aria-label={slides[currentSlide].buttonText}
+                        onClick={() =>
+                          (window.location.href = "tel:+917427051223")
+                        }
                       >
                         <span className="text-2xl">+</span>
                         {slides[currentSlide].buttonText}

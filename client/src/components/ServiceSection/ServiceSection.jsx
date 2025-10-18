@@ -775,9 +775,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const ServicesSection = () => {
   const sectionRef = useRef(null);
+  const navigate = useNavigate();
   const isInView = useInView(sectionRef, {
     once: true,
     amount: 0.1, // Reduced from 0.2 for better mobile triggering
@@ -793,6 +795,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301963584/LH/GU/TC/60856849/100w-philips-flood-light-500x500.jpg",
       category: "Flood Lights",
+      link: "/flood-light",
     },
     {
       id: 2,
@@ -802,6 +805,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301987614/IL/ZC/IV/60856849/havells-reo-utsav-ceiling-fan-500x500.jpg",
       category: "Street Lights",
+      link: "/ceiling-fan",
     },
     {
       id: 3,
@@ -811,6 +815,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301921065/RZ/NU/HP/60856849/anchor-electrical-switch-board-500x500.jpg",
       category: "Street Lights",
+      link: "/switch-board",
     },
     {
       id: 4,
@@ -820,6 +825,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301891203/HY/JP/NL/60856849/philips-stellar-bright-20w-led-bulb-500x500.jpg",
       category: "Flood Lights",
+      link: "/led-bulb",
     },
     {
       id: 5,
@@ -829,6 +835,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301922562/WB/NZ/UL/60856849/45w-surya-led-street-light-500x500.jpeg",
       category: "Street Lights",
+      link: "/street-light",
     },
     {
       id: 6,
@@ -838,6 +845,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/301855927/JB/NU/AW/60856849/havells-12-watt-cob-light-500x500.jpg",
       category: "Flood Lights",
+      link: "/cob-light",
     },
     {
       id: 7,
@@ -847,6 +855,7 @@ const ServicesSection = () => {
       image:
         "https://5.imimg.com/data5/SELLER/Default/2023/4/299217414/LE/IR/SQ/60856849/whatsapp-image-2023-04-07-at-2-14-55-pm-500x500.jpeg",
       category: "Solar Lights",
+      link: "tube-light",
     },
   ];
 
@@ -981,8 +990,12 @@ const ServicesSection = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full bg-yellow-400 text-gray-900 py-2.5 sm:py-3 rounded-lg font-semibold shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
+                  className="w-full bg-yellow-400 text-gray-900 py-2.5 sm:py-3 cursor-pointer rounded-lg font-semibold shadow-md hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2"
                   aria-label={`View details for ${product.name}`}
+                  onClick={() => {
+                    navigate(product.link);
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }}
                 >
                   <span>View Details</span>
                   <motion.svg

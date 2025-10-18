@@ -4,8 +4,10 @@ import AboutHeroSection from "../components/AboutHeroSection/AboutHeroSection.js
 import AboutUs from "../components/AboutUs/AboutSection.jsx";
 import ServicesSection from "../components/ServiceSection/ServiceSection.jsx";
 import TestimonialsSection from "../components/testimonials/Testimonials.jsx";
+import { useNavigate } from "react-router-dom";
 
 function AboutPage() {
+  const navigate = useNavigate();
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -185,11 +187,11 @@ function AboutPage() {
               >
                 <motion.p variants={itemVariants}>
                   Established in{" "}
-                  <span className="font-bold text-[#F0B100]">2003</span>, Jyoti
-                  Enterprises began its journey as a Proprietor firm in
-                  Prakasam, Bhilwara, India. For over two decades, we have been
-                  committed to providing exceptional LED lighting solutions to
-                  our valued customers.
+                  <span className="font-bold text-[#F0B100]">2003</span>, We
+                  Jyoti Enterprises and Electric World began its journey as a
+                  Proprietor firm in Prakasam, Bhilwara, India. For over two
+                  decades, we have been committed to providing exceptional LED
+                  lighting solutions to our valued customers.
                 </motion.p>
 
                 <motion.p variants={itemVariants}>
@@ -214,7 +216,7 @@ function AboutPage() {
 
               <motion.div className="mt-8" variants={itemVariants}>
                 <motion.button
-                  className="px-8 py-4 bg-[#FDC700] text-black font-bold rounded-full text-lg shadow-lg"
+                  className="px-8 py-4 bg-[#FDC700] text-black cursor-pointer font-bold rounded-full text-lg shadow-lg"
                   whileHover={{
                     scale: 1.05,
                     backgroundColor: "#F0B100",
@@ -222,6 +224,10 @@ function AboutPage() {
                   }}
                   whileTap={{ scale: 0.95 }}
                   transition={{ type: "spring", stiffness: 300 }}
+                  onClick={() => {
+                    navigate("/gallery");
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }}
                 >
                   Explore Our Gallery
                 </motion.button>

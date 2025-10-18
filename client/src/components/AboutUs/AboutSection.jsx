@@ -109,7 +109,7 @@ const AboutUs = () => {
 
             {/* Description */}
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-              Operating as “Electric Work” and “Jyoti Enterprises”, we offer
+              Operating as “Electric World” and “Jyoti Enterprises”, we offer
               complete electrical solutions—from design for new projects and
               renovations to the wholesale supply of quality LED lighting like
               Apra and Surya street lights.

@@ -70,11 +70,12 @@ const Footer = () => {
 
             {/* Description */}
             <p className="text-gray-400 leading-relaxed max-w-md">
-              We, under our brands “Electric Work” and “Jyoti Enterprises”,
-              provide comprehensive electrical solutions – from system design
-              for new constructions, renovations, and upgrades to the wholesale
-              supply of quality lighting products such as 50W Apra LED Flood
-              Lights, 72W and 45W Surya LED Street Lights.
+              We, under our brands “Electric World” and “Jyoti Enterprises”, are
+              dedicated wholesale traders of quality electrical products. Since
+              2003, we have been supplying a wide range of reliable lighting
+              solutions, including 50W Apra LED Flood Lights and 72W & 45W Surya
+              LED Street Lights, catering to the diverse needs of our customers
+              across Prakasam (Bhilwara, India) and beyond.
             </p>
 
             {/* Social Media Icons */}
